@@ -1,0 +1,2505 @@
+
+------DayofYearSet and DayOfYear constructors is being tested------
+The objects generated successfully.
+
+------Size() method is being tested------
+Size of d1: 4
+Size of d2: 5
+The process is successful
+
+------iterator_() method is being tested------
+This method returns what value is in the index entered as a parameter in a set.
+A set was created with the values 1,2,3,4,5,6,7 in it.
+If we want to know the value in the second index: 
+Returned value: 3
+
+If we want to know the value in the fourth index: 
+Returned value: 5
+The process is successful
+
+------getMonth() method is being tested------
+returned value for day4(4,23): 4
+returned value for day6(8,30): 8
+The process is successful
+
+------getDay() method is being tested------
+returned value for day4(4,23): 23
+returned value for day6(8,30): 30
+The process is successful
+
+------setMonth() method is being tested------
+Old month value of day_ object: 9
+After we set the month value 12: 12
+After we set the month value 2: 2
+The process is successful
+
+------setDay() method is being tested------
+Old day value of day_ object: 11
+After we set the day value 12: 12
+After we set the day value 27: 27
+The process is successful
+
+------Stream insertion operator is being tested------
+d1 object: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 10
+day: 24
+For the 2. element:
+month: 5
+day: 10
+For the 3. element:
+month: 5
+day: 12
+For the 4. element:
+month: 4
+day: 23
+d2 object: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 10
+day: 24
+For the 4. element:
+month: 5
+day: 12
+For the 5. element:
+month: 11
+day: 11
+Successfully printed.
+
+------operator== is being tested------
+Checking if object d1 is equal to d2
+The objects are not same
+Checking if object d1 is equal to itself
+The objects are not same
+The process is successful
+
+------operator!= is being tested------
+Checking if object d1 is not equal to d2
+The objects are not same
+Checking if object d1 is not equal to itself
+The objects are not same
+The process is successful
+
+------remove() method is being tested.------
+0th(10,24) index of object d1 will be removed from the set
+
+old d1
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 10
+day: 24
+For the 2. element:
+month: 5
+day: 10
+For the 3. element:
+month: 5
+day: 12
+For the 4. element:
+month: 4
+day: 23
+
+new d1
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+For the 2. element:
+month: 5
+day: 12
+For the 3. element:
+month: 4
+day: 23
+4th(11,11) index of object d2 will be removed from the set
+
+old d2:
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 10
+day: 24
+For the 4. element:
+month: 5
+day: 12
+For the 5. element:
+month: 11
+day: 11
+
+new d2:
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 10
+day: 24
+For the 4. element:
+month: 5
+day: 12
+The process is successful
+
+------operator+ is being tested------
+Day1 (DayOfYear data type) object containing 10th month and 24th day values will be added to d1.
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+For the 2. element:
+month: 5
+day: 12
+For the 3. element:
+month: 4
+day: 23
+For the 4. element:
+month: 10
+day: 24
+Day9 (DayOfYear data type) object containing 11th month and 11th day values will be added to d2.
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 10
+day: 24
+For the 4. element:
+month: 5
+day: 12
+For the 5. element:
+month: 11
+day: 11
+
+------Operator+ (union set) is being tested------
+d1 and d2 objects obtained from DayofYearSet class will be collected and assigned to d3.
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+For the 2. element:
+month: 5
+day: 12
+For the 3. element:
+month: 4
+day: 23
+For the 4. element:
+month: 10
+day: 24
+For the 5. element:
+month: 1
+day: 14
+For the 6. element:
+month: 8
+day: 30
+For the 7. element:
+month: 11
+day: 11
+d3 and d2 objects obtained from DayofYearSet class will be collected and assigned to d3.
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+For the 2. element:
+month: 5
+day: 12
+For the 3. element:
+month: 4
+day: 23
+For the 4. element:
+month: 10
+day: 24
+For the 5. element:
+month: 1
+day: 14
+For the 6. element:
+month: 8
+day: 30
+For the 7. element:
+month: 11
+day: 11
+The process is successful
+
+------Operator- (difference set) is being tested------
+d1-d2: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+For the 2. element:
+month: 4
+day: 23
+
+d2-d1: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 11
+day: 11
+The process is successful
+
+------Operator- (removes an element from the set) is being tested------
+We will delete day5(1,14) element from the d3 set.
+old version of d3: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 14
+For the 2. element:
+month: 8
+day: 30
+For the 3. element:
+month: 11
+day: 11
+new d3: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 8
+day: 30
+For the 2. element:
+month: 11
+day: 11
+We will delete day9(11,11) element from the d3 set.
+old version of d3: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 8
+day: 30
+For the 2. element:
+month: 11
+day: 11
+new d3: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 8
+day: 30
+The process is succesfull.
+
+------Operator^  intersection operator kontrol------
+The intersection of the set d1 and d2 will be printed on the screen
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 12
+For the 2. element:
+month: 10
+day: 24
+The intersection of the set d3 and d2 will be printed on the screen
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 12
+For the 2. element:
+month: 10
+day: 24
+The process is successful.
+
+------Operator!  complement operator kontrol------
+Complement of d1: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 1
+For the 2. element:
+month: 1
+day: 2
+For the 3. element:
+month: 1
+day: 3
+For the 4. element:
+month: 1
+day: 4
+For the 5. element:
+month: 1
+day: 5
+For the 6. element:
+month: 1
+day: 6
+For the 7. element:
+month: 1
+day: 7
+For the 8. element:
+month: 1
+day: 8
+For the 9. element:
+month: 1
+day: 9
+For the 10. element:
+month: 1
+day: 10
+For the 11. element:
+month: 1
+day: 11
+For the 12. element:
+month: 1
+day: 12
+For the 13. element:
+month: 1
+day: 13
+For the 14. element:
+month: 1
+day: 14
+For the 15. element:
+month: 1
+day: 15
+For the 16. element:
+month: 1
+day: 16
+For the 17. element:
+month: 1
+day: 17
+For the 18. element:
+month: 1
+day: 18
+For the 19. element:
+month: 1
+day: 19
+For the 20. element:
+month: 1
+day: 20
+For the 21. element:
+month: 1
+day: 21
+For the 22. element:
+month: 1
+day: 22
+For the 23. element:
+month: 1
+day: 23
+For the 24. element:
+month: 1
+day: 24
+For the 25. element:
+month: 1
+day: 25
+For the 26. element:
+month: 1
+day: 26
+For the 27. element:
+month: 1
+day: 27
+For the 28. element:
+month: 1
+day: 28
+For the 29. element:
+month: 1
+day: 29
+For the 30. element:
+month: 1
+day: 30
+For the 31. element:
+month: 1
+day: 31
+For the 32. element:
+month: 2
+day: 1
+For the 33. element:
+month: 2
+day: 2
+For the 34. element:
+month: 2
+day: 3
+For the 35. element:
+month: 2
+day: 4
+For the 36. element:
+month: 2
+day: 5
+For the 37. element:
+month: 2
+day: 6
+For the 38. element:
+month: 2
+day: 7
+For the 39. element:
+month: 2
+day: 8
+For the 40. element:
+month: 2
+day: 9
+For the 41. element:
+month: 2
+day: 10
+For the 42. element:
+month: 2
+day: 11
+For the 43. element:
+month: 2
+day: 12
+For the 44. element:
+month: 2
+day: 13
+For the 45. element:
+month: 2
+day: 14
+For the 46. element:
+month: 2
+day: 15
+For the 47. element:
+month: 2
+day: 16
+For the 48. element:
+month: 2
+day: 17
+For the 49. element:
+month: 2
+day: 18
+For the 50. element:
+month: 2
+day: 19
+For the 51. element:
+month: 2
+day: 20
+For the 52. element:
+month: 2
+day: 21
+For the 53. element:
+month: 2
+day: 22
+For the 54. element:
+month: 2
+day: 23
+For the 55. element:
+month: 2
+day: 24
+For the 56. element:
+month: 2
+day: 25
+For the 57. element:
+month: 2
+day: 26
+For the 58. element:
+month: 2
+day: 27
+For the 59. element:
+month: 2
+day: 28
+For the 60. element:
+month: 2
+day: 29
+For the 61. element:
+month: 3
+day: 1
+For the 62. element:
+month: 3
+day: 2
+For the 63. element:
+month: 3
+day: 3
+For the 64. element:
+month: 3
+day: 4
+For the 65. element:
+month: 3
+day: 5
+For the 66. element:
+month: 3
+day: 6
+For the 67. element:
+month: 3
+day: 7
+For the 68. element:
+month: 3
+day: 8
+For the 69. element:
+month: 3
+day: 9
+For the 70. element:
+month: 3
+day: 10
+For the 71. element:
+month: 3
+day: 11
+For the 72. element:
+month: 3
+day: 12
+For the 73. element:
+month: 3
+day: 13
+For the 74. element:
+month: 3
+day: 14
+For the 75. element:
+month: 3
+day: 15
+For the 76. element:
+month: 3
+day: 16
+For the 77. element:
+month: 3
+day: 17
+For the 78. element:
+month: 3
+day: 18
+For the 79. element:
+month: 3
+day: 19
+For the 80. element:
+month: 3
+day: 20
+For the 81. element:
+month: 3
+day: 21
+For the 82. element:
+month: 3
+day: 22
+For the 83. element:
+month: 3
+day: 23
+For the 84. element:
+month: 3
+day: 24
+For the 85. element:
+month: 3
+day: 25
+For the 86. element:
+month: 3
+day: 26
+For the 87. element:
+month: 3
+day: 27
+For the 88. element:
+month: 3
+day: 28
+For the 89. element:
+month: 3
+day: 29
+For the 90. element:
+month: 3
+day: 30
+For the 91. element:
+month: 3
+day: 31
+For the 92. element:
+month: 4
+day: 1
+For the 93. element:
+month: 4
+day: 2
+For the 94. element:
+month: 4
+day: 3
+For the 95. element:
+month: 4
+day: 4
+For the 96. element:
+month: 4
+day: 5
+For the 97. element:
+month: 4
+day: 6
+For the 98. element:
+month: 4
+day: 7
+For the 99. element:
+month: 4
+day: 8
+For the 100. element:
+month: 4
+day: 9
+For the 101. element:
+month: 4
+day: 10
+For the 102. element:
+month: 4
+day: 11
+For the 103. element:
+month: 4
+day: 12
+For the 104. element:
+month: 4
+day: 13
+For the 105. element:
+month: 4
+day: 14
+For the 106. element:
+month: 4
+day: 15
+For the 107. element:
+month: 4
+day: 16
+For the 108. element:
+month: 4
+day: 17
+For the 109. element:
+month: 4
+day: 18
+For the 110. element:
+month: 4
+day: 19
+For the 111. element:
+month: 4
+day: 20
+For the 112. element:
+month: 4
+day: 21
+For the 113. element:
+month: 4
+day: 22
+For the 114. element:
+month: 4
+day: 24
+For the 115. element:
+month: 4
+day: 25
+For the 116. element:
+month: 4
+day: 26
+For the 117. element:
+month: 4
+day: 27
+For the 118. element:
+month: 4
+day: 28
+For the 119. element:
+month: 4
+day: 29
+For the 120. element:
+month: 4
+day: 30
+For the 121. element:
+month: 5
+day: 1
+For the 122. element:
+month: 5
+day: 2
+For the 123. element:
+month: 5
+day: 3
+For the 124. element:
+month: 5
+day: 4
+For the 125. element:
+month: 5
+day: 5
+For the 126. element:
+month: 5
+day: 6
+For the 127. element:
+month: 5
+day: 7
+For the 128. element:
+month: 5
+day: 8
+For the 129. element:
+month: 5
+day: 9
+For the 130. element:
+month: 5
+day: 11
+For the 131. element:
+month: 5
+day: 13
+For the 132. element:
+month: 5
+day: 14
+For the 133. element:
+month: 5
+day: 15
+For the 134. element:
+month: 5
+day: 16
+For the 135. element:
+month: 5
+day: 17
+For the 136. element:
+month: 5
+day: 18
+For the 137. element:
+month: 5
+day: 19
+For the 138. element:
+month: 5
+day: 20
+For the 139. element:
+month: 5
+day: 21
+For the 140. element:
+month: 5
+day: 22
+For the 141. element:
+month: 5
+day: 23
+For the 142. element:
+month: 5
+day: 24
+For the 143. element:
+month: 5
+day: 25
+For the 144. element:
+month: 5
+day: 26
+For the 145. element:
+month: 5
+day: 27
+For the 146. element:
+month: 5
+day: 28
+For the 147. element:
+month: 5
+day: 29
+For the 148. element:
+month: 5
+day: 30
+For the 149. element:
+month: 5
+day: 31
+For the 150. element:
+month: 6
+day: 1
+For the 151. element:
+month: 6
+day: 2
+For the 152. element:
+month: 6
+day: 3
+For the 153. element:
+month: 6
+day: 4
+For the 154. element:
+month: 6
+day: 5
+For the 155. element:
+month: 6
+day: 6
+For the 156. element:
+month: 6
+day: 7
+For the 157. element:
+month: 6
+day: 8
+For the 158. element:
+month: 6
+day: 9
+For the 159. element:
+month: 6
+day: 10
+For the 160. element:
+month: 6
+day: 11
+For the 161. element:
+month: 6
+day: 12
+For the 162. element:
+month: 6
+day: 13
+For the 163. element:
+month: 6
+day: 14
+For the 164. element:
+month: 6
+day: 15
+For the 165. element:
+month: 6
+day: 16
+For the 166. element:
+month: 6
+day: 17
+For the 167. element:
+month: 6
+day: 18
+For the 168. element:
+month: 6
+day: 19
+For the 169. element:
+month: 6
+day: 20
+For the 170. element:
+month: 6
+day: 21
+For the 171. element:
+month: 6
+day: 22
+For the 172. element:
+month: 6
+day: 23
+For the 173. element:
+month: 6
+day: 24
+For the 174. element:
+month: 6
+day: 25
+For the 175. element:
+month: 6
+day: 26
+For the 176. element:
+month: 6
+day: 27
+For the 177. element:
+month: 6
+day: 28
+For the 178. element:
+month: 6
+day: 29
+For the 179. element:
+month: 6
+day: 30
+For the 180. element:
+month: 7
+day: 1
+For the 181. element:
+month: 7
+day: 2
+For the 182. element:
+month: 7
+day: 3
+For the 183. element:
+month: 7
+day: 4
+For the 184. element:
+month: 7
+day: 5
+For the 185. element:
+month: 7
+day: 6
+For the 186. element:
+month: 7
+day: 7
+For the 187. element:
+month: 7
+day: 8
+For the 188. element:
+month: 7
+day: 9
+For the 189. element:
+month: 7
+day: 10
+For the 190. element:
+month: 7
+day: 11
+For the 191. element:
+month: 7
+day: 12
+For the 192. element:
+month: 7
+day: 13
+For the 193. element:
+month: 7
+day: 14
+For the 194. element:
+month: 7
+day: 15
+For the 195. element:
+month: 7
+day: 16
+For the 196. element:
+month: 7
+day: 17
+For the 197. element:
+month: 7
+day: 18
+For the 198. element:
+month: 7
+day: 19
+For the 199. element:
+month: 7
+day: 20
+For the 200. element:
+month: 7
+day: 21
+For the 201. element:
+month: 7
+day: 22
+For the 202. element:
+month: 7
+day: 23
+For the 203. element:
+month: 7
+day: 24
+For the 204. element:
+month: 7
+day: 25
+For the 205. element:
+month: 7
+day: 26
+For the 206. element:
+month: 7
+day: 27
+For the 207. element:
+month: 7
+day: 28
+For the 208. element:
+month: 7
+day: 29
+For the 209. element:
+month: 7
+day: 30
+For the 210. element:
+month: 7
+day: 31
+For the 211. element:
+month: 8
+day: 1
+For the 212. element:
+month: 8
+day: 2
+For the 213. element:
+month: 8
+day: 3
+For the 214. element:
+month: 8
+day: 4
+For the 215. element:
+month: 8
+day: 5
+For the 216. element:
+month: 8
+day: 6
+For the 217. element:
+month: 8
+day: 7
+For the 218. element:
+month: 8
+day: 8
+For the 219. element:
+month: 8
+day: 9
+For the 220. element:
+month: 8
+day: 10
+For the 221. element:
+month: 8
+day: 11
+For the 222. element:
+month: 8
+day: 12
+For the 223. element:
+month: 8
+day: 13
+For the 224. element:
+month: 8
+day: 14
+For the 225. element:
+month: 8
+day: 15
+For the 226. element:
+month: 8
+day: 16
+For the 227. element:
+month: 8
+day: 17
+For the 228. element:
+month: 8
+day: 18
+For the 229. element:
+month: 8
+day: 19
+For the 230. element:
+month: 8
+day: 20
+For the 231. element:
+month: 8
+day: 21
+For the 232. element:
+month: 8
+day: 22
+For the 233. element:
+month: 8
+day: 23
+For the 234. element:
+month: 8
+day: 24
+For the 235. element:
+month: 8
+day: 25
+For the 236. element:
+month: 8
+day: 26
+For the 237. element:
+month: 8
+day: 27
+For the 238. element:
+month: 8
+day: 28
+For the 239. element:
+month: 8
+day: 29
+For the 240. element:
+month: 8
+day: 30
+For the 241. element:
+month: 8
+day: 31
+For the 242. element:
+month: 9
+day: 1
+For the 243. element:
+month: 9
+day: 2
+For the 244. element:
+month: 9
+day: 3
+For the 245. element:
+month: 9
+day: 4
+For the 246. element:
+month: 9
+day: 5
+For the 247. element:
+month: 9
+day: 6
+For the 248. element:
+month: 9
+day: 7
+For the 249. element:
+month: 9
+day: 8
+For the 250. element:
+month: 9
+day: 9
+For the 251. element:
+month: 9
+day: 10
+For the 252. element:
+month: 9
+day: 11
+For the 253. element:
+month: 9
+day: 12
+For the 254. element:
+month: 9
+day: 13
+For the 255. element:
+month: 9
+day: 14
+For the 256. element:
+month: 9
+day: 15
+For the 257. element:
+month: 9
+day: 16
+For the 258. element:
+month: 9
+day: 17
+For the 259. element:
+month: 9
+day: 18
+For the 260. element:
+month: 9
+day: 19
+For the 261. element:
+month: 9
+day: 20
+For the 262. element:
+month: 9
+day: 21
+For the 263. element:
+month: 9
+day: 22
+For the 264. element:
+month: 9
+day: 23
+For the 265. element:
+month: 9
+day: 24
+For the 266. element:
+month: 9
+day: 25
+For the 267. element:
+month: 9
+day: 26
+For the 268. element:
+month: 9
+day: 27
+For the 269. element:
+month: 9
+day: 28
+For the 270. element:
+month: 9
+day: 29
+For the 271. element:
+month: 9
+day: 30
+For the 272. element:
+month: 10
+day: 1
+For the 273. element:
+month: 10
+day: 2
+For the 274. element:
+month: 10
+day: 3
+For the 275. element:
+month: 10
+day: 4
+For the 276. element:
+month: 10
+day: 5
+For the 277. element:
+month: 10
+day: 6
+For the 278. element:
+month: 10
+day: 7
+For the 279. element:
+month: 10
+day: 8
+For the 280. element:
+month: 10
+day: 9
+For the 281. element:
+month: 10
+day: 10
+For the 282. element:
+month: 10
+day: 11
+For the 283. element:
+month: 10
+day: 12
+For the 284. element:
+month: 10
+day: 13
+For the 285. element:
+month: 10
+day: 14
+For the 286. element:
+month: 10
+day: 15
+For the 287. element:
+month: 10
+day: 16
+For the 288. element:
+month: 10
+day: 17
+For the 289. element:
+month: 10
+day: 18
+For the 290. element:
+month: 10
+day: 19
+For the 291. element:
+month: 10
+day: 20
+For the 292. element:
+month: 10
+day: 21
+For the 293. element:
+month: 10
+day: 22
+For the 294. element:
+month: 10
+day: 23
+For the 295. element:
+month: 10
+day: 25
+For the 296. element:
+month: 10
+day: 26
+For the 297. element:
+month: 10
+day: 27
+For the 298. element:
+month: 10
+day: 28
+For the 299. element:
+month: 10
+day: 29
+For the 300. element:
+month: 10
+day: 30
+For the 301. element:
+month: 10
+day: 31
+For the 302. element:
+month: 11
+day: 1
+For the 303. element:
+month: 11
+day: 2
+For the 304. element:
+month: 11
+day: 3
+For the 305. element:
+month: 11
+day: 4
+For the 306. element:
+month: 11
+day: 5
+For the 307. element:
+month: 11
+day: 6
+For the 308. element:
+month: 11
+day: 7
+For the 309. element:
+month: 11
+day: 8
+For the 310. element:
+month: 11
+day: 9
+For the 311. element:
+month: 11
+day: 10
+For the 312. element:
+month: 11
+day: 11
+For the 313. element:
+month: 11
+day: 12
+For the 314. element:
+month: 11
+day: 13
+For the 315. element:
+month: 11
+day: 14
+For the 316. element:
+month: 11
+day: 15
+For the 317. element:
+month: 11
+day: 16
+For the 318. element:
+month: 11
+day: 17
+For the 319. element:
+month: 11
+day: 18
+For the 320. element:
+month: 11
+day: 19
+For the 321. element:
+month: 11
+day: 20
+For the 322. element:
+month: 11
+day: 21
+For the 323. element:
+month: 11
+day: 22
+For the 324. element:
+month: 11
+day: 23
+For the 325. element:
+month: 11
+day: 24
+For the 326. element:
+month: 11
+day: 25
+For the 327. element:
+month: 11
+day: 26
+For the 328. element:
+month: 11
+day: 27
+For the 329. element:
+month: 11
+day: 28
+For the 330. element:
+month: 11
+day: 29
+For the 331. element:
+month: 11
+day: 30
+For the 332. element:
+month: 12
+day: 1
+For the 333. element:
+month: 12
+day: 2
+For the 334. element:
+month: 12
+day: 3
+For the 335. element:
+month: 12
+day: 4
+For the 336. element:
+month: 12
+day: 5
+For the 337. element:
+month: 12
+day: 6
+For the 338. element:
+month: 12
+day: 7
+For the 339. element:
+month: 12
+day: 8
+For the 340. element:
+month: 12
+day: 9
+For the 341. element:
+month: 12
+day: 10
+For the 342. element:
+month: 12
+day: 11
+For the 343. element:
+month: 12
+day: 12
+For the 344. element:
+month: 12
+day: 13
+For the 345. element:
+month: 12
+day: 14
+For the 346. element:
+month: 12
+day: 15
+For the 347. element:
+month: 12
+day: 16
+For the 348. element:
+month: 12
+day: 17
+For the 349. element:
+month: 12
+day: 18
+For the 350. element:
+month: 12
+day: 19
+For the 351. element:
+month: 12
+day: 20
+For the 352. element:
+month: 12
+day: 21
+For the 353. element:
+month: 12
+day: 22
+For the 354. element:
+month: 12
+day: 23
+For the 355. element:
+month: 12
+day: 24
+For the 356. element:
+month: 12
+day: 25
+For the 357. element:
+month: 12
+day: 26
+For the 358. element:
+month: 12
+day: 27
+For the 359. element:
+month: 12
+day: 28
+For the 360. element:
+month: 12
+day: 29
+For the 361. element:
+month: 12
+day: 30
+For the 362. element:
+month: 12
+day: 31
+Complement of d2: 
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 1
+day: 1
+For the 2. element:
+month: 1
+day: 2
+For the 3. element:
+month: 1
+day: 3
+For the 4. element:
+month: 1
+day: 4
+For the 5. element:
+month: 1
+day: 5
+For the 6. element:
+month: 1
+day: 6
+For the 7. element:
+month: 1
+day: 7
+For the 8. element:
+month: 1
+day: 8
+For the 9. element:
+month: 1
+day: 9
+For the 10. element:
+month: 1
+day: 10
+For the 11. element:
+month: 1
+day: 11
+For the 12. element:
+month: 1
+day: 12
+For the 13. element:
+month: 1
+day: 13
+For the 14. element:
+month: 1
+day: 15
+For the 15. element:
+month: 1
+day: 16
+For the 16. element:
+month: 1
+day: 17
+For the 17. element:
+month: 1
+day: 18
+For the 18. element:
+month: 1
+day: 19
+For the 19. element:
+month: 1
+day: 20
+For the 20. element:
+month: 1
+day: 21
+For the 21. element:
+month: 1
+day: 22
+For the 22. element:
+month: 1
+day: 23
+For the 23. element:
+month: 1
+day: 24
+For the 24. element:
+month: 1
+day: 25
+For the 25. element:
+month: 1
+day: 26
+For the 26. element:
+month: 1
+day: 27
+For the 27. element:
+month: 1
+day: 28
+For the 28. element:
+month: 1
+day: 29
+For the 29. element:
+month: 1
+day: 30
+For the 30. element:
+month: 1
+day: 31
+For the 31. element:
+month: 2
+day: 1
+For the 32. element:
+month: 2
+day: 2
+For the 33. element:
+month: 2
+day: 3
+For the 34. element:
+month: 2
+day: 4
+For the 35. element:
+month: 2
+day: 5
+For the 36. element:
+month: 2
+day: 6
+For the 37. element:
+month: 2
+day: 7
+For the 38. element:
+month: 2
+day: 8
+For the 39. element:
+month: 2
+day: 9
+For the 40. element:
+month: 2
+day: 10
+For the 41. element:
+month: 2
+day: 11
+For the 42. element:
+month: 2
+day: 12
+For the 43. element:
+month: 2
+day: 13
+For the 44. element:
+month: 2
+day: 14
+For the 45. element:
+month: 2
+day: 15
+For the 46. element:
+month: 2
+day: 16
+For the 47. element:
+month: 2
+day: 17
+For the 48. element:
+month: 2
+day: 18
+For the 49. element:
+month: 2
+day: 19
+For the 50. element:
+month: 2
+day: 20
+For the 51. element:
+month: 2
+day: 21
+For the 52. element:
+month: 2
+day: 22
+For the 53. element:
+month: 2
+day: 23
+For the 54. element:
+month: 2
+day: 24
+For the 55. element:
+month: 2
+day: 25
+For the 56. element:
+month: 2
+day: 26
+For the 57. element:
+month: 2
+day: 27
+For the 58. element:
+month: 2
+day: 28
+For the 59. element:
+month: 2
+day: 29
+For the 60. element:
+month: 3
+day: 1
+For the 61. element:
+month: 3
+day: 2
+For the 62. element:
+month: 3
+day: 3
+For the 63. element:
+month: 3
+day: 4
+For the 64. element:
+month: 3
+day: 5
+For the 65. element:
+month: 3
+day: 6
+For the 66. element:
+month: 3
+day: 7
+For the 67. element:
+month: 3
+day: 8
+For the 68. element:
+month: 3
+day: 9
+For the 69. element:
+month: 3
+day: 10
+For the 70. element:
+month: 3
+day: 11
+For the 71. element:
+month: 3
+day: 12
+For the 72. element:
+month: 3
+day: 13
+For the 73. element:
+month: 3
+day: 14
+For the 74. element:
+month: 3
+day: 15
+For the 75. element:
+month: 3
+day: 16
+For the 76. element:
+month: 3
+day: 17
+For the 77. element:
+month: 3
+day: 18
+For the 78. element:
+month: 3
+day: 19
+For the 79. element:
+month: 3
+day: 20
+For the 80. element:
+month: 3
+day: 21
+For the 81. element:
+month: 3
+day: 22
+For the 82. element:
+month: 3
+day: 23
+For the 83. element:
+month: 3
+day: 24
+For the 84. element:
+month: 3
+day: 25
+For the 85. element:
+month: 3
+day: 26
+For the 86. element:
+month: 3
+day: 27
+For the 87. element:
+month: 3
+day: 28
+For the 88. element:
+month: 3
+day: 29
+For the 89. element:
+month: 3
+day: 30
+For the 90. element:
+month: 3
+day: 31
+For the 91. element:
+month: 4
+day: 1
+For the 92. element:
+month: 4
+day: 2
+For the 93. element:
+month: 4
+day: 3
+For the 94. element:
+month: 4
+day: 4
+For the 95. element:
+month: 4
+day: 5
+For the 96. element:
+month: 4
+day: 6
+For the 97. element:
+month: 4
+day: 7
+For the 98. element:
+month: 4
+day: 8
+For the 99. element:
+month: 4
+day: 9
+For the 100. element:
+month: 4
+day: 10
+For the 101. element:
+month: 4
+day: 11
+For the 102. element:
+month: 4
+day: 12
+For the 103. element:
+month: 4
+day: 13
+For the 104. element:
+month: 4
+day: 14
+For the 105. element:
+month: 4
+day: 15
+For the 106. element:
+month: 4
+day: 16
+For the 107. element:
+month: 4
+day: 17
+For the 108. element:
+month: 4
+day: 18
+For the 109. element:
+month: 4
+day: 19
+For the 110. element:
+month: 4
+day: 20
+For the 111. element:
+month: 4
+day: 21
+For the 112. element:
+month: 4
+day: 22
+For the 113. element:
+month: 4
+day: 23
+For the 114. element:
+month: 4
+day: 24
+For the 115. element:
+month: 4
+day: 25
+For the 116. element:
+month: 4
+day: 26
+For the 117. element:
+month: 4
+day: 27
+For the 118. element:
+month: 4
+day: 28
+For the 119. element:
+month: 4
+day: 29
+For the 120. element:
+month: 4
+day: 30
+For the 121. element:
+month: 5
+day: 1
+For the 122. element:
+month: 5
+day: 2
+For the 123. element:
+month: 5
+day: 3
+For the 124. element:
+month: 5
+day: 4
+For the 125. element:
+month: 5
+day: 5
+For the 126. element:
+month: 5
+day: 6
+For the 127. element:
+month: 5
+day: 7
+For the 128. element:
+month: 5
+day: 8
+For the 129. element:
+month: 5
+day: 9
+For the 130. element:
+month: 5
+day: 10
+For the 131. element:
+month: 5
+day: 11
+For the 132. element:
+month: 5
+day: 13
+For the 133. element:
+month: 5
+day: 14
+For the 134. element:
+month: 5
+day: 15
+For the 135. element:
+month: 5
+day: 16
+For the 136. element:
+month: 5
+day: 17
+For the 137. element:
+month: 5
+day: 18
+For the 138. element:
+month: 5
+day: 19
+For the 139. element:
+month: 5
+day: 20
+For the 140. element:
+month: 5
+day: 21
+For the 141. element:
+month: 5
+day: 22
+For the 142. element:
+month: 5
+day: 23
+For the 143. element:
+month: 5
+day: 24
+For the 144. element:
+month: 5
+day: 25
+For the 145. element:
+month: 5
+day: 26
+For the 146. element:
+month: 5
+day: 27
+For the 147. element:
+month: 5
+day: 28
+For the 148. element:
+month: 5
+day: 29
+For the 149. element:
+month: 5
+day: 30
+For the 150. element:
+month: 5
+day: 31
+For the 151. element:
+month: 6
+day: 1
+For the 152. element:
+month: 6
+day: 2
+For the 153. element:
+month: 6
+day: 3
+For the 154. element:
+month: 6
+day: 4
+For the 155. element:
+month: 6
+day: 5
+For the 156. element:
+month: 6
+day: 6
+For the 157. element:
+month: 6
+day: 7
+For the 158. element:
+month: 6
+day: 8
+For the 159. element:
+month: 6
+day: 9
+For the 160. element:
+month: 6
+day: 10
+For the 161. element:
+month: 6
+day: 11
+For the 162. element:
+month: 6
+day: 12
+For the 163. element:
+month: 6
+day: 13
+For the 164. element:
+month: 6
+day: 14
+For the 165. element:
+month: 6
+day: 15
+For the 166. element:
+month: 6
+day: 16
+For the 167. element:
+month: 6
+day: 17
+For the 168. element:
+month: 6
+day: 18
+For the 169. element:
+month: 6
+day: 19
+For the 170. element:
+month: 6
+day: 20
+For the 171. element:
+month: 6
+day: 21
+For the 172. element:
+month: 6
+day: 22
+For the 173. element:
+month: 6
+day: 23
+For the 174. element:
+month: 6
+day: 24
+For the 175. element:
+month: 6
+day: 25
+For the 176. element:
+month: 6
+day: 26
+For the 177. element:
+month: 6
+day: 27
+For the 178. element:
+month: 6
+day: 28
+For the 179. element:
+month: 6
+day: 29
+For the 180. element:
+month: 6
+day: 30
+For the 181. element:
+month: 7
+day: 1
+For the 182. element:
+month: 7
+day: 2
+For the 183. element:
+month: 7
+day: 3
+For the 184. element:
+month: 7
+day: 4
+For the 185. element:
+month: 7
+day: 5
+For the 186. element:
+month: 7
+day: 6
+For the 187. element:
+month: 7
+day: 7
+For the 188. element:
+month: 7
+day: 8
+For the 189. element:
+month: 7
+day: 9
+For the 190. element:
+month: 7
+day: 10
+For the 191. element:
+month: 7
+day: 11
+For the 192. element:
+month: 7
+day: 12
+For the 193. element:
+month: 7
+day: 13
+For the 194. element:
+month: 7
+day: 14
+For the 195. element:
+month: 7
+day: 15
+For the 196. element:
+month: 7
+day: 16
+For the 197. element:
+month: 7
+day: 17
+For the 198. element:
+month: 7
+day: 18
+For the 199. element:
+month: 7
+day: 19
+For the 200. element:
+month: 7
+day: 20
+For the 201. element:
+month: 7
+day: 21
+For the 202. element:
+month: 7
+day: 22
+For the 203. element:
+month: 7
+day: 23
+For the 204. element:
+month: 7
+day: 24
+For the 205. element:
+month: 7
+day: 25
+For the 206. element:
+month: 7
+day: 26
+For the 207. element:
+month: 7
+day: 27
+For the 208. element:
+month: 7
+day: 28
+For the 209. element:
+month: 7
+day: 29
+For the 210. element:
+month: 7
+day: 30
+For the 211. element:
+month: 7
+day: 31
+For the 212. element:
+month: 8
+day: 1
+For the 213. element:
+month: 8
+day: 2
+For the 214. element:
+month: 8
+day: 3
+For the 215. element:
+month: 8
+day: 4
+For the 216. element:
+month: 8
+day: 5
+For the 217. element:
+month: 8
+day: 6
+For the 218. element:
+month: 8
+day: 7
+For the 219. element:
+month: 8
+day: 8
+For the 220. element:
+month: 8
+day: 9
+For the 221. element:
+month: 8
+day: 10
+For the 222. element:
+month: 8
+day: 11
+For the 223. element:
+month: 8
+day: 12
+For the 224. element:
+month: 8
+day: 13
+For the 225. element:
+month: 8
+day: 14
+For the 226. element:
+month: 8
+day: 15
+For the 227. element:
+month: 8
+day: 16
+For the 228. element:
+month: 8
+day: 17
+For the 229. element:
+month: 8
+day: 18
+For the 230. element:
+month: 8
+day: 19
+For the 231. element:
+month: 8
+day: 20
+For the 232. element:
+month: 8
+day: 21
+For the 233. element:
+month: 8
+day: 22
+For the 234. element:
+month: 8
+day: 23
+For the 235. element:
+month: 8
+day: 24
+For the 236. element:
+month: 8
+day: 25
+For the 237. element:
+month: 8
+day: 26
+For the 238. element:
+month: 8
+day: 27
+For the 239. element:
+month: 8
+day: 28
+For the 240. element:
+month: 8
+day: 29
+For the 241. element:
+month: 8
+day: 31
+For the 242. element:
+month: 9
+day: 1
+For the 243. element:
+month: 9
+day: 2
+For the 244. element:
+month: 9
+day: 3
+For the 245. element:
+month: 9
+day: 4
+For the 246. element:
+month: 9
+day: 5
+For the 247. element:
+month: 9
+day: 6
+For the 248. element:
+month: 9
+day: 7
+For the 249. element:
+month: 9
+day: 8
+For the 250. element:
+month: 9
+day: 9
+For the 251. element:
+month: 9
+day: 10
+For the 252. element:
+month: 9
+day: 11
+For the 253. element:
+month: 9
+day: 12
+For the 254. element:
+month: 9
+day: 13
+For the 255. element:
+month: 9
+day: 14
+For the 256. element:
+month: 9
+day: 15
+For the 257. element:
+month: 9
+day: 16
+For the 258. element:
+month: 9
+day: 17
+For the 259. element:
+month: 9
+day: 18
+For the 260. element:
+month: 9
+day: 19
+For the 261. element:
+month: 9
+day: 20
+For the 262. element:
+month: 9
+day: 21
+For the 263. element:
+month: 9
+day: 22
+For the 264. element:
+month: 9
+day: 23
+For the 265. element:
+month: 9
+day: 24
+For the 266. element:
+month: 9
+day: 25
+For the 267. element:
+month: 9
+day: 26
+For the 268. element:
+month: 9
+day: 27
+For the 269. element:
+month: 9
+day: 28
+For the 270. element:
+month: 9
+day: 29
+For the 271. element:
+month: 9
+day: 30
+For the 272. element:
+month: 10
+day: 1
+For the 273. element:
+month: 10
+day: 2
+For the 274. element:
+month: 10
+day: 3
+For the 275. element:
+month: 10
+day: 4
+For the 276. element:
+month: 10
+day: 5
+For the 277. element:
+month: 10
+day: 6
+For the 278. element:
+month: 10
+day: 7
+For the 279. element:
+month: 10
+day: 8
+For the 280. element:
+month: 10
+day: 9
+For the 281. element:
+month: 10
+day: 10
+For the 282. element:
+month: 10
+day: 11
+For the 283. element:
+month: 10
+day: 12
+For the 284. element:
+month: 10
+day: 13
+For the 285. element:
+month: 10
+day: 14
+For the 286. element:
+month: 10
+day: 15
+For the 287. element:
+month: 10
+day: 16
+For the 288. element:
+month: 10
+day: 17
+For the 289. element:
+month: 10
+day: 18
+For the 290. element:
+month: 10
+day: 19
+For the 291. element:
+month: 10
+day: 20
+For the 292. element:
+month: 10
+day: 21
+For the 293. element:
+month: 10
+day: 22
+For the 294. element:
+month: 10
+day: 23
+For the 295. element:
+month: 10
+day: 25
+For the 296. element:
+month: 10
+day: 26
+For the 297. element:
+month: 10
+day: 27
+For the 298. element:
+month: 10
+day: 28
+For the 299. element:
+month: 10
+day: 29
+For the 300. element:
+month: 10
+day: 30
+For the 301. element:
+month: 10
+day: 31
+For the 302. element:
+month: 11
+day: 1
+For the 303. element:
+month: 11
+day: 2
+For the 304. element:
+month: 11
+day: 3
+For the 305. element:
+month: 11
+day: 4
+For the 306. element:
+month: 11
+day: 5
+For the 307. element:
+month: 11
+day: 6
+For the 308. element:
+month: 11
+day: 7
+For the 309. element:
+month: 11
+day: 8
+For the 310. element:
+month: 11
+day: 9
+For the 311. element:
+month: 11
+day: 10
+For the 312. element:
+month: 11
+day: 12
+For the 313. element:
+month: 11
+day: 13
+For the 314. element:
+month: 11
+day: 14
+For the 315. element:
+month: 11
+day: 15
+For the 316. element:
+month: 11
+day: 16
+For the 317. element:
+month: 11
+day: 17
+For the 318. element:
+month: 11
+day: 18
+For the 319. element:
+month: 11
+day: 19
+For the 320. element:
+month: 11
+day: 20
+For the 321. element:
+month: 11
+day: 21
+For the 322. element:
+month: 11
+day: 22
+For the 323. element:
+month: 11
+day: 23
+For the 324. element:
+month: 11
+day: 24
+For the 325. element:
+month: 11
+day: 25
+For the 326. element:
+month: 11
+day: 26
+For the 327. element:
+month: 11
+day: 27
+For the 328. element:
+month: 11
+day: 28
+For the 329. element:
+month: 11
+day: 29
+For the 330. element:
+month: 11
+day: 30
+For the 331. element:
+month: 12
+day: 1
+For the 332. element:
+month: 12
+day: 2
+For the 333. element:
+month: 12
+day: 3
+For the 334. element:
+month: 12
+day: 4
+For the 335. element:
+month: 12
+day: 5
+For the 336. element:
+month: 12
+day: 6
+For the 337. element:
+month: 12
+day: 7
+For the 338. element:
+month: 12
+day: 8
+For the 339. element:
+month: 12
+day: 9
+For the 340. element:
+month: 12
+day: 10
+For the 341. element:
+month: 12
+day: 11
+For the 342. element:
+month: 12
+day: 12
+For the 343. element:
+month: 12
+day: 13
+For the 344. element:
+month: 12
+day: 14
+For the 345. element:
+month: 12
+day: 15
+For the 346. element:
+month: 12
+day: 16
+For the 347. element:
+month: 12
+day: 17
+For the 348. element:
+month: 12
+day: 18
+For the 349. element:
+month: 12
+day: 19
+For the 350. element:
+month: 12
+day: 20
+For the 351. element:
+month: 12
+day: 21
+For the 352. element:
+month: 12
+day: 22
+For the 353. element:
+month: 12
+day: 23
+For the 354. element:
+month: 12
+day: 24
+For the 355. element:
+month: 12
+day: 25
+For the 356. element:
+month: 12
+day: 26
+For the 357. element:
+month: 12
+day: 27
+For the 358. element:
+month: 12
+day: 28
+For the 359. element:
+month: 12
+day: 29
+For the 360. element:
+month: 12
+day: 30
+For the 361. element:
+month: 12
+day: 31
+Process is successful
+
+------Operator[]  index operator kontrol------
+0th index of d1 will be printed on the screen
+
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 10
+3th index of d2 will be printed on the screen
+
+----DayofYearSet details will be printed----
+For the 1. element:
+month: 5
+day: 12
+Process is successful
